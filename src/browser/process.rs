@@ -64,7 +64,7 @@ pub struct LaunchOptions<'a> {
     #[builder(default = "true")]
     headless: bool,
     /// Determines whether to run the browser with a sandbox.
-    #[builder(default = "true")]
+    #[builder(default = "false")]
     sandbox: bool,
     /// Launch the browser with a specific window width and height.
     #[builder(default = "None")]
