@@ -54,6 +54,7 @@ pub struct BackendNode {
 #[derive(Deserialize, Debug, Clone)]
 #[serde(rename_all = "kebab-case")]
 pub enum PseudoType {
+    Marker,
     FirstLine,
     FirstLetter,
     Before,
