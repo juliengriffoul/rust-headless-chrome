@@ -223,12 +223,12 @@ impl Process {
         let mut args = vec![
             port_option.as_str(),
             "--disable-gpu",
-            "--enable-logging",
+            //"--enable-logging",
             "--verbose",
             "--log-level=0",
             "--no-first-run",
             "--disable-audio-output",
-            data_dir_option.as_str(),
+            //data_dir_option.as_str(),
         ];
 
         args.extend(&DEFAULT_ARGS);
